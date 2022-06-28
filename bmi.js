@@ -16,6 +16,6 @@ app.post("/bmicalculator", function (req, res) {
     res.send("<h1>Your body-mass index is " + result + ".</h1>");
 })
 
-app.listen(3000, function(){
+app.listen(5000, function(){
     console.log("server has been started on port 3000.");
 });
